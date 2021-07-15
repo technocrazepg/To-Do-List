@@ -1,0 +1,107 @@
+
+body{
+    background-color: #f5b905;
+    background-image: url("https://www.transparenttextures.com/patterns/cutcube.png");
+    margin : 0;
+    box-sizing: border-box;
+}
+
+header h2{
+    padding : 4px 10px;
+    background-color: brown;
+    width: 260px;
+    margin: 1em auto 2em auto;
+    color : #fff;
+    /* border-radius: 0 18px/2px 10px; */
+    border-radius: 18px;
+    box-sizing: border-box;
+    /* transform: rotate(4deg); */
+    position: absolute;
+    top: -40px;
+    left: 23px;
+    z-index: 1;
+}
+.container{
+    margin: 2em auto;
+    width: 300px;
+    height : 500px;
+    border-radius: 20px;
+    padding : 10px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 5px 5px 8px gray;
+    position: relative;
+    top: 40px;
+}
+
+form{
+    box-sizing: border-box;
+    margin-top: 40px;
+    position: sticky;
+}
+form input{
+    border : none;
+    padding : 2px 5px;
+    box-sizing: border-box;
+    width : 70%;
+    height : 7%;
+    margin : 10px 10px 15px 10px;
+    font-size: 20px;
+    border-bottom: 2px dashed rgba(241, 188, 13, 0.966);
+}
+form input:focus{
+    outline: none;
+}
+form button{
+    display: inline-block;
+    width: 30%;
+    background-color: cornflowerblue;
+    border-radius: 7px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 5px;
+    text-align: center;
+}
+form button:hover{
+    background-color: rgb(29, 78, 168);
+}
+.list{
+    margin-top: 20px;
+    height: 320px;
+    overflow-y: scroll;
+}
+.list::-webkit-scrollbar {
+    width: 6px;
+}
+.list::-webkit-scrollbar-thumb {
+    border-radius: 25px;
+    background-color: rgb(177, 172, 172);
+    height: 50px;
+}
+.list::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(139, 134, 134);
+}
+.list::-webkit-scrollbar-track {
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.list ul li{
+    list-style-type: decimal;
+    border-bottom: 1px solid rgba(241, 188, 13, 0.966);
+    padding-bottom: 5px;
+    text-align: left;
+}
+.list ul li button{
+    background-color: transparent;
+    float: right;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    color:rgba(241, 188, 13, 0.966);
+    font-weight: 400;
+}
+.list ul li button:hover{
+    font-weight: bold;
+    color: rgba(241, 141, 47, 0.973)
+}
